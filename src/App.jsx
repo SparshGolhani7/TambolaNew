@@ -4,6 +4,7 @@ import Navbar from "./Component/Navbar";
 import Housie from "./Component/Housie";
 import Master from "./Component/Master";
 import { useState } from "react";
+import Multigame from "./Component/Multigame";
 
 function App() {
   // const [isGameStarted,setisGameStarted] = useState(false);
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Housie />}></Route>
           <Route path="/admin" element={<Master />}></Route>
+          <Route path="/multigame" element={<Multigame/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

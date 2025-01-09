@@ -6,6 +6,7 @@ function Navbar() {
     <nav>
         <ul><li><NavLink to={'/'}>Home</NavLink></li>
             <li><NavLink to={'/admin'}>AdminStart</NavLink></li>
+            <li><NavLink to={'/multigame'}>Multigame</NavLink></li>
         
         </ul>
     </nav>
